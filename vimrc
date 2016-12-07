@@ -9,6 +9,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " Put user bundlers below here
+Plugin 'ap/vim-buftabline'
 Plugin 'elzr/vim-json'
 Plugin 'fatih/vim-go'
 Plugin 'kien/ctrlp.vim'
@@ -163,6 +164,6 @@ endif
 " auto strip whitespace except for file with extention blacklisted
 let blacklist = ['markdown', 'md']
 autocmd BufWritePre * StripWhitespace
-nmap <C-w> :ToggleWhitespace<CR>
+" nmap <C-w> :ToggleWhitespace<CR>
 
 " vim:ts=2:sw=2:et
