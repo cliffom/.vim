@@ -148,7 +148,7 @@ let NERDTreeIgnore=['\.vim$', '\~$', '\.git$', '.DS_Store']
 " Close nerdtree and vim on close file
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-" =================== vim-airline ========================
+" === vim-airline ========================================
 
 let g:airline_powerline_fonts = 1
 let g:airline_theme='bubblegum'
@@ -159,11 +159,14 @@ if !g:remoteSession
   let g:airline_powerline_fonts=1
 endif
 
-" ================= vim-better-whitespace ================
+" === vim-better-whitespace ==============================
 
-" auto strip whitespace except for file with extention blacklisted
 let blacklist = ['markdown', 'md']
 autocmd BufWritePre * StripWhitespace
 " nmap <C-w> :ToggleWhitespace<CR>
+
+" === ctrlp ==============================================
+
+let g:ctrlp_custom_ignore = '_build\|deps\|node_modules\|DS_Store\|git'
 
 " vim:ts=2:sw=2:et
