@@ -40,7 +40,7 @@ set showcmd                     " Show me what I'm typing
 set showmode                    " Show current mode.
 
 set noswapfile                  " Don't use swapfile
-set nobackup					          " Don't create annoying backup files
+set nobackup				    " Don't create annoying backup files
 set nowritebackup
 set splitright                  " Split vertical windows right to the current windows
 set splitbelow                  " Split horizontal windows below to the current windows
