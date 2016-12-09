@@ -1,6 +1,5 @@
 set nocompatible
 filetype off
-filetype plugin indent on
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -13,9 +12,7 @@ Plugin 'ap/vim-buftabline'
 Plugin 'elzr/vim-json'
 Plugin 'fatih/vim-go'
 Plugin 'kien/ctrlp.vim'
-Plugin 'mxw/vim-jsx'
 Plugin 'ntpeters/vim-better-whitespace'
-Plugin 'pangloss/vim-javascript'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
@@ -24,10 +21,13 @@ Plugin 'vim-airline/vim-airline-themes'
 " Languages
 Plugin 'docker/docker'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'mxw/vim-jsx'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
+filetype plugin indent on
 
-syntax on
+syntax enable
 set shortmess+=I
 "
 " Settings
@@ -40,7 +40,7 @@ set showcmd                     " Show me what I'm typing
 set showmode                    " Show current mode.
 
 set noswapfile                  " Don't use swapfile
-set nobackup				    " Don't create annoying backup files
+set nobackup	        			    " Don't create annoying backup files
 set nowritebackup
 set splitright                  " Split vertical windows right to the current windows
 set splitbelow                  " Split horizontal windows below to the current windows
