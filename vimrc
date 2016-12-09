@@ -10,8 +10,6 @@ Plugin 'VundleVim/Vundle.vim'
 " Put user bundlers below here
 Plugin 'ap/vim-buftabline'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'elzr/vim-json'
-Plugin 'fatih/vim-go'
 Plugin 'kien/ctrlp.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'scrooloose/nerdtree'
@@ -22,6 +20,8 @@ Plugin 'vim-airline/vim-airline-themes'
 " Languages
 Plugin 'docker/docker'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'elzr/vim-json'
+Plugin 'fatih/vim-go'
 Plugin 'mxw/vim-jsx'
 Plugin 'pangloss/vim-javascript'
 
