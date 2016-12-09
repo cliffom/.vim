@@ -19,6 +19,7 @@ plugins.
 * [ap/vim-buftabline](https://github.com/ap/vim-buftabline.git)
 * [elzr/vim-json](https://github.com/elzr/vim-json.git)
 * [docker/docker](https://github.com/docker/docker.git)
+* [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim.git)
 * [elixir-lang/vim-elixir](https://github.com/elixir-lang/vim-elixir.git)
 * [fatih/vim-go](https://github.com/fatih/vim-go.git)
 * [kien/ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim.git)
