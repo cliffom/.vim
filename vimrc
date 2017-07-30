@@ -139,9 +139,10 @@ set clipboard=unnamed
 
 "==================== NerdTree ====================
 " For toggling
-nmap <C-n> :NERDTreeToggle<CR>
-noremap <Leader>n :NERDTreeToggle<cr>
+nmap <C-n> :NERDTreeFocus<CR>
+noremap <Leader>n :NERDTreeFocus<cr>
 noremap <Leader>f :NERDTreeFind<cr>
+cabbrev nc NERDTreeClose
 
 let NERDTreeShowHidden=1
 
