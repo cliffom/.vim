@@ -5,7 +5,7 @@ My vim configuration
 
 ```sh
 $ cd ~/
-$ git clone --recursive https://github.com/cliffom/.vim.git .vim
+$ git clone --depth 1 https://github.com/cliffom/.vim.git .vim
 $ ~/.vim/setup
 ```
 
